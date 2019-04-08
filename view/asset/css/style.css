@@ -1,0 +1,264 @@
+div.background{
+	background: blue url('http://themegoodsthemes-pzbycso8wng.stackpathdns.com/letsblog/demo/wp-content/uploads/2015/07/1.jpg');
+	width: 100%;
+	height: 450px;
+	position: absolute;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 0.7;
+}
+section span{
+	color: #be9656;
+}
+img#section_1 {
+	width: 100%;
+	margin-bottom: 1.5rem;
+}
+span.time {
+	display: block;
+	text-align: center;
+	position: relative;
+	color: #be9656;
+	font-style: italic;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+a.title {
+	display: block;
+	text-align: center;
+	padding: 20px 0 0px 0px;
+	font-size: 17px;
+}
+
+span.time::after {
+	content: "";
+	width: 46px;
+	height: 1px;
+	position: absolute;
+	background-color: #be9656;
+	top: 13px;
+	right: 70px;
+}
+
+span.time::before {
+	content: "";
+	width: 46px;
+	height: 1px;
+	position: absolute;
+	background-color: #be9656;
+	top: 13px;
+	left: 70px;
+}
+p.content {
+	font-size: 14px;
+	height: 105px;
+	overflow: hidden;
+}
+a.readmore {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 11px;
+	color: #be9656;
+	letter-spacing: 2px;
+}
+.col-md-6.post {
+	margin-bottom: 2.5rem;
+}
+
+.col-md-6.post > img {
+	height: 223px;
+}
+
+.main {
+	margin-top: 2.5rem;
+}
+h3.slogan {
+	text-align: center;
+	font-weight: 300;
+}
+span.timeSlogan {
+	display: block;
+	text-align: center;
+	position: relative;
+	color: #be9656;
+	font-style: italic;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+span.timeSlogan::before {
+    content: "";
+    width: 63px;
+    height: 1px;
+    position: absolute;
+    background-color: #be9656;
+    top: 11px;
+    left: 244px;
+}
+span.timeSlogan::after {
+    content: "";
+    width: 63px;
+    height: 1px;
+    position: absolute;
+    background-color: #be9656;
+    top: 11px;
+    right: 247px;
+}
+p.card-text {
+    font-size: small;
+    margin-top: 20px;
+}
+h5.card-title {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.card-body {
+    padding-top: 30px;
+}
+
+.card {
+    width: 100% !important;
+    margin-bottom:2.5rem;
+}
+
+.col-md-4 {
+    padding-left: 47px;
+}
+.muc_2 {
+    border-bottom: 1px solid #f1e8e8;
+    margin-bottom: 2.5rem;
+    position: relative;
+}
+
+.muc_2>span {
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: -9px;
+    transform: translateX(-50%);
+    padding: 0 19px;
+    font-size: 16px;
+    letter-spacing: 8px;
+}
+
+.newpost {
+    margin-bottom: 2rem;
+}
+.muc_2>span:before {
+    content: "";
+    width: 1px;
+    height: 14px;
+    position: absolute;
+    background: #dcd3d3;
+    transform: rotate(16deg);
+    transform-origin: 20% 40%;
+    left: 47%;
+    top: 5px;
+}
+input[type="text"] {
+    width: 100%;
+    margin-bottom: 5px;
+}
+input[type="text"] {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background: #808080bf;
+    border: 1px solid #808080bf;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+form#subscribe > input {
+    height: 29px;
+}
+.imgInsta>img {
+    width: 84px;
+    height: 84px;
+    margin-left: 4px;
+    margin-bottom: 6px;
+ }
+ .follow > a {
+    margin-left: 16px;
+    color: gray;
+}
+
+.follow {
+    width: 53%;
+    margin: auto;
+}
+.banner {height: 500px;}
+.banner > p {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+.banner {
+    position: relative;
+}
+ul.pagination a {
+    color: gray !important;
+}
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+.header {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 5%;
+}
+
+.social {width: 100px;display: flex;justify-content: space-between;}
+.search {
+    width: 60px;
+}
+
+.search>i {
+    margin-left: 9px;
+    font-size: 20px;
+}
+.navbar {
+    border-top: 1px solid #80808054;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+ul#menu {
+    width: 51%;
+    margin: auto;
+    padding: 3px 0;
+}
+
+ul#menu li {
+    display: inline-block;
+}
+ul.multi_2 {
+    display: none;
+}
+ul#menu > li {
+    margin-left: 31px;
+}
+ul#menu a {
+    font-size: 17px;
+    color: gray;
+}
+.social > a {
+    color: gray;
+}
