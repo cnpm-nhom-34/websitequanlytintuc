@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar {
+    padding-top: 22px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 84px;
+    position: relative;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar a {
+    color: #03A9F4;
+}
+
+.info {
+    width: 560px;
+    margin: auto;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 40px;
+    margin-top: 21px;
+    margin-bottom: 15px;
+}
+
+.info p {
+    width: 370px;
+    margin: auto;
+    font-weight: 600;
+    font-size: 17px;
+    color: #04030387;
+    margin-bottom: 31px;
+}
+
+.social a {
+    color: black;
+    margin-left: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #988d8d73;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.border-bottom::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 1px solid gray;
+    left: 50%;
+    border-radius: 50%;
+    background: white;
+    outline: white solid 6px;
+    bottom: -5px;
+}
+
+.hot-post {
+    width: 560px;
+    margin: auto;
+}
+
+.info {
+    margin-bottom: 50px;
+}
+
+.hot-post ul li {
+    margin-bottom: 31px;
+    font-size: 16px;
+    list-style: none;
+    line-height: 26px;
+}
+
+.hot-post.border-bottom ul li a {
+    width: 350px;
+    display: inline-block;
+    position: relative;
+}
+
+.hot-post ul li a span {
+    position: absolute;
+    right: -58%;
+    top: 2px;
+}
+
+.hot-post.border-bottom a {
+    color: black;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px 0 60px;
+    font-size: 14px;
+    line-height: 20px
+}
+
+.footer p:first-child {
+    color: #687f8c;
+}
+
+div.animate {
+    animation: 2s active;
+}
+
+@keyframes active {
+    from {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+div.efLoad {
+    display: flex;
+    width: 2em;
+    height: 2em;
+    border: 3px solid transparent;
+    border-top-color: #3cefff;
+    border-bottom-color: #3cefff;
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite;
+    position: absolute;
+    right: 49%;
+    top: 76px;
+}
+
+div.efLoad:before {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 0.4em;
+    height: 0.4em;
+    border: 3px solid #3cefff;
+    border-radius: 50%;
+    animation: pulse 1s alternate ease-in-out infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+
+/* about - css */
+
+.info-about img {
+    margin-bottom: 13px;
+    display: block;
+    margin: auto;
+}
+
+p.text {
+    margin-bottom: 14px;
+    box-shadow: 0 0 black;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.info-about {
+    width: 560px;
+    margin: auto;
+}
+
+.info-about ul {
+    padding-left: 46px;
+}
+
+.info-about h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.navbar-home {
+    padding-top: 22px;
+    display: flex;
+    justify-content: center;
+    padding-left: 28px;
+    position: relative;
+    font-size: 20px;
+}
+
+.navbar-home ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+.navbar-home a {
+    color: #03A9F4;
+}
+
+
+/* post-deltails */
+
+.wrapper-content {
+    width: 560px;
+    margin: auto;
+}
+
+.tag span {
+    background: #8080805c;
+    margin-right: 4px;
+    padding: 0 5px;
+}
+
+.tag {
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.post-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.time {
+    color: gray;
+    margin-bottom: 16px;
+}
+
+.author {
+    margin-bottom: 50px;
+}
+
+.post-info {
+    border-bottom: 1px solid #80808040;
+    margin-bottom: 48px;
+}
+
+.sumary p {
+    margin: 20px 0;
+}
+
+.content h3 {
+    margin-bottom: 10px;
+}
+
+ul.pagination li {
+    width: 30px;
+    /* background: red; */
+}
+
+ul.pagination {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
